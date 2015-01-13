@@ -105,12 +105,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: scale(1);
   }
 
-  50% {
+  10% {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
   }
 
-  100% {
+  20% {
     -webkit-transform: scale(1);
     transform: scale(1);
   }
@@ -123,13 +123,13 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: scale(1);
   }
 
-  50% {
+  10% {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
   }
 
-  100% {
+  20% {
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);

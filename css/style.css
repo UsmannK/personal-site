@@ -48,7 +48,6 @@ body {
 
 
 .content {
-	height:100%;
 	background: url(../images/john_doe.jpg) no-repeat;
 	background-size: 100%;
 	background-size:cover;
@@ -352,6 +351,8 @@ body {
 	width:50px;
 	height: 50px;
 	display:block;
+    -webkit-animation-duration:5s; /* Chrome, Safari, Opera */
+  	-webkit-animation-iteration-count: 4;
 }
  .da-link:hover{
  	background: #fff;

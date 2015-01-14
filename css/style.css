@@ -48,10 +48,13 @@ body {
 
 
 .content {
-	background: url(../images/john_doe.jpg) no-repeat;
+	background: url(../images/NYC.jpeg) no-repeat;
 	background-size: 100%;
 	background-size:cover;
 	}
+.color-class{
+	background-color: rgba(0,0,0, 0.7);
+}
 
 .heading{
 	color:#333;
@@ -230,6 +233,26 @@ body {
 
 
 /*Slider*/
+.title-subtext{
+	font-family: "helvetica";
+	font-size: 68px;
+	text-transform: uppercase;
+	line-height: 1em;
+	letter-spacing: 4px;
+	font-weight: 700;
+	color: #fff;
+}
+
+.title-upper{
+	line-height: 1.5em;
+	font-family: "adobe-garamond-pro";
+	font-size: 24px;
+	text-transform: none;
+	letter-spacing: 1px;
+	font-weight: 400;
+	font-style: italic;
+	color: #fff;
+}
 
 .da-slider{
 	width: 100%;
@@ -352,7 +375,7 @@ body {
 	height: 50px;
 	display:block;
     -webkit-animation-duration:5s; /* Chrome, Safari, Opera */
-  	-webkit-animation-iteration-count: 4;
+  	-webkit-animation-iteration-count: infinite;
 }
  .da-link:hover{
  	background: #fff;
@@ -667,8 +690,8 @@ body {
 /*===================================================================================*/
 
 .skills{
-	background: rgb(102, 135, 169); /* Fall-back for browsers that don't support rgba */
-    background: rgba(102, 135, 169, 0.9);
+	background: rgb(10, 11, 13); /* Fall-back for browsers that don't support rgba */
+	background: rgba(10, 11, 13, 0.9);
 	}
 
 .skills .heading{

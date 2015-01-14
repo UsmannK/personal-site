@@ -2,6 +2,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+  	<script src="//use.typekit.net/ruf2tzy.js"></script>
+	<script>try{Typekit.load();}catch(e){}</script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,6 +16,8 @@
     <link href="css/bootstrap.css" rel="stylesheet" type='text/css' />
     <link href="css/font-awesome.css" rel="stylesheet" type='text/css' />
 
+    <!-- Textillate CSS -->
+    <link href="http://jschr.github.io/textillate/assets/animate.css" rel="stylesheet" type="text/css" />
 
 	<!-- Owl Carousel Assets -->
 	<link href="css/owl.carousel.css" rel="stylesheet" type='text/css' />
@@ -39,53 +43,42 @@
 </head>
 <body>
 	<div class="content" id="home">
-		<div class="wrap">
-			
-			<div class="header_style">	
-				<!-- start h_menu -->
-				<div class="h_menu">
-				<ul class="flexy-menu thick orange">
-				    <li> <a href="#home" class="scroll">Home</a></li>
-				    <li><a href="#Portfolio" class="scroll">Portfolio</a></li>
-				    <li><a href="#skills" class="scroll">Skills</a> </li>
-				    <li><a class="scroll" href="#Experience">Experience</a></li>
-				    <li><a href="#contact" class="scroll">Contact</a></li>
-				</ul>
-				</div>
-				<!-- end h_menu -->
-				<!-- start h_logo -->
-				<div class="logo">
-					<img src="images/logo.png" />
-				</div>
-				<div class="clearfix"></div>
-			</div><!-- header_style -->
-
-			<!--start-da-slider-->
-		   	<div class="slider"> 
-				<div id="da-slider" class="da-slider">
-					<div class="da-slide">
-						<h2>Hello, I am <span class="author"></span></h2>
-						<p class="fontTest">I'm a user interface designer living in San Francisco, California.</p>
-						<a href="#" class="da-link"><span>READ MORE</span></a>
+		<div class="color-class">
+			<div class="wrap">
+				
+				<div class="header_style">	
+					<!-- start h_menu -->
+					<div class="h_menu">
+					<ul class="flexy-menu thick orange">
+					    <li> <a href="#home" class="scroll">Home</a></li>
+					    <li><a href="#Portfolio" class="scroll">Portfolio</a></li>
+					    <li><a href="#skills" class="scroll">Skills</a> </li>
+					    <li><a class="scroll" href="#Experience">Experience</a></li>
+					    <li><a href="#contact" class="scroll">Contact</a></li>
+					</ul>
 					</div>
-					<div class="da-slide">
-						<h2>Tagline Goes Here</h2>
-						<p>Using Lorem Ipsum With Passion Since Forever</p>
-						<a href="#" class="da-link"><span>READ MORE</span></a>
+					<!-- end h_menu -->
+					<!-- start h_logo -->
+					<div class="logo">
+						<img src="images/logo.png" />
 					</div>
-					<nav class="da-arrows">
-						<span class="da-arrows-prev"></span>
-						<span class="da-arrows-next"></span>
-					</nav>
+					<div class="clearfix"></div>
+				</div><!-- header_style -->
+
+				<!--start-da-slider-->
+			   	<div class="slider"> 
+					<div id="da-slider" class="da-slider">
+						<p class="title-upper"><em>Hi I'm Usmann, a developer with a passion for</em></p><p class="title-subtext"><strong class="skills-switcher">Mobile</strong></p><p><a href="/contact">Contact</a>&nbsp;<a target="_blank" href="/s/Devon-Stank-Resume-2015.pdf">Resume</a></p>
+					</div>
+
+					<div class="down-arrow">
+					<a href="#Portfolio" class="scroll" ><span class="animated pulse"> </span></a>
+					</div>	
 				</div>
+				<!--//End-da-slider-->
 
-				<div class="down-arrow">
-				<a href="#Portfolio" class="scroll" ><span class="animated pulse"> </span></a>
-				</div>	
-			</div>
-			<!--//End-da-slider-->
-
-		</div><!--wrap-->
+			</div><!--wrap-->
+		</div> <!--color-class-->
 	</div><!-- content /home -->
 
 	<!-- =======================================
@@ -491,7 +484,8 @@
     <!-- END Switcher -->
 	<!-- END Demo Examples -->
 	
-
+	<!-- Textillate CSS -->
+	<script type="text/javascript" src="http://jschr.github.io/textillate/assets/jquery.lettering.js"></script>
 	<!-- Bootstrap core JavaScript -->
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
@@ -516,6 +510,18 @@
 
 	<script type="text/javascript" src="js/owl.carousel.js"></script>
 	<script type="text/javascript" src="js/wow.min.js"></script>
+
+	<script type="text/javascript">
+	$(document).ready(function(){
+		var cur = 0;
+		var skills = ["mobile", "android", "music", "the web", "Design", "javascript", "front end dev", "nodejs", "java", "python", "sublime", "spotify"];
+
+		setInterval(function(){ 
+			if(cur == skills.length) cur = 0;
+			$(".skills-switcher").text(skills[++cur]);
+		}, 1000);
+	});
+	</script>
 
 
 	<script type="text/javascript">

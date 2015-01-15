@@ -233,7 +233,7 @@ body {
 
 
 /*Slider*/
-.title-subtext{
+h1{
 	font-family: "helvetica";
 	font-size: 68px;
 	text-transform: uppercase;
@@ -363,6 +363,37 @@ body {
 	-moz-border-radius: 5px;
 	-o-border-radius:5px;	
 }
+
+.boxed
+{
+	border: 2px solid #fff !important;
+	border-top-color: rgb(255, 255, 255);
+	border-top-style: solid;
+	border-top-width: 2px;
+	border-right-color: rgb(255, 255, 255);
+	border-right-style: solid;
+	border-right-width: 2px;
+	border-bottom-color: rgb(255, 255, 255);
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-left-color: rgb(255, 255, 255);
+	border-left-style: solid;
+	border-left-width: 2px;
+
+font-size: 15px;
+text-transform: uppercase;
+letter-spacing: 2px;
+font-weight: 400;
+font-style: normal;
+text-decoration: none;
+padding: 1em 1.75em;
+
+
+display: inline-block;
+line-height: 1em;
+margin: 10px 0;
+}
+
 .down-arrow
 {
 	width:50px;

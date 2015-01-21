@@ -10,10 +10,10 @@ Version: 2.0
 */
 
 
-a { text-decoration:none; color: #ddd!important; }
+a { text-decoration:none; color: #fff; }
 a:hover{ 
 	text-decoration:none; 
-	color: #fff!important; 
+	color: #fff; 
 	}
 
 nav.vertical ul li{	display:block;}
@@ -233,7 +233,7 @@ body {
 
 
 /*Slider*/
-h1{
+.tlt{
 	font-family: "helvetica";
 	font-size: 68px;
 	text-transform: uppercase;
@@ -405,9 +405,16 @@ margin: 10px 0;
 	width:50px;
 	height: 50px;
 	display:block;
-    -webkit-animation-duration:5s; /* Chrome, Safari, Opera */
-  	-webkit-animation-iteration-count: infinite;
 }
+
+/**/
+/**/
+/* THREE STATES, OG, ENTER, LEAVE. ALL DIFFERENT CSS TAGS */
+/**/
+/**/
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+
  .da-link:hover{
  	background: #fff;
  	color:#333!important;
@@ -462,6 +469,14 @@ margin: 10px 0;
 /*===================================================================================*/
 /*	PORTFOLIO
 /*===================================================================================*/
+
+.portfolio_img1{
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+	max-width: 240px;
+}
 .portfolio {
 	background-color: #fff;
 	}
@@ -469,6 +484,7 @@ margin: 10px 0;
 .desc h1{
 	font-size: 20px;
 	text-transform: uppercase;
+	color: #000000;
 	}
 
 .owl-carousel {
@@ -678,11 +694,11 @@ margin: 10px 0;
 	}
 
 .button_2 a{
-	border:1px solid #6687a9;
+	border:1px solid #000000;
 	/*background-color: #6687a9;*/
 	font-size: 1em;
 	padding: 0.6em 2.2em;
-	color:#6687a9!important;
+	color:#000000!important;
 	border-radius: 5px;
 	-webkit-border-radius: 5px;
 	-o-border-radius: 5px;
@@ -690,8 +706,8 @@ margin: 10px 0;
 	}
 
 .button_2 a:hover{
-	background-color: #7094b9;
-	border:1px solid #7094b9;
+	background-color: #000000;
+	border:1px solid #000000;
 	color:#fff!important;
 	text-decoration: none;
 	}
@@ -1235,6 +1251,8 @@ footer ul.contacts li {
 
 @media(min-width: 768px) and (max-width: 991px) {
 
+
+
 	.logo{
 		width: 150px;
 	}
@@ -1298,7 +1316,7 @@ footer ul.contacts li {
 
 /*HERO SLIDER*/
 	.da-slider {
-		height:200px;
+		padding-top: 20px;
 		}
 
 	.da-slide .da-link {
@@ -1453,7 +1471,7 @@ footer ul.contacts li {
 
 /*HERO SLIDER*/
 	.da-slider {
-		height:200px;
+		padding-top:0px;
 		}
 
 	.da-slide .da-link {
@@ -1698,7 +1716,7 @@ footer ul.contacts li {
 
 	/*HERO SLIDER*/
 	.da-slider {
-		height:200px;
+		padding-top: 0px;
 		}
 
 	.da-slide .da-link {

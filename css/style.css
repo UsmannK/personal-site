@@ -699,10 +699,6 @@ margin: 10px 0;
 	font-size: 1em;
 	padding: 0.6em 2.2em;
 	color:#000000!important;
-	border-radius: 5px;
-	-webkit-border-radius: 5px;
-	-o-border-radius: 5px;
-	-moz-border-radius: 5px;
 	}
 
 .button_2 a:hover{
@@ -771,9 +767,9 @@ margin: 10px 0;
 .chart {
     position: relative;
     display: inline-block;
-    margin: 3em;
-    width: 130px;
-    height: 130px;
+    margin: 1em;
+    width: 178px;
+    height: 178px;
     text-align: center;
 	}
 
@@ -1082,7 +1078,7 @@ footer {
 	}	
 
 footer.dark-bg {
-	background-color: #2F4052;
+	background-color: #000;
 	}
 
 footer.container.inner {
@@ -1187,7 +1183,7 @@ footer ul.contacts li {
 	}
 
 .footer-bottom {
-    background: #283645!important;
+    background: #000!important;
 	color: #707E8C;
 	margin:0!important;
 	display: block;

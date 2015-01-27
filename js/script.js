@@ -31,7 +31,7 @@ jQuery(document).ready(function ($) {
                         scaleColor: false,
                         lineWidth: 18,
                         size: 178,
-                        trackColor: '#ddd',
+                        trackColor: false,
                         lineCap: 'square',
                         animate: 2000,
                         onStep: function (from, to, percent) {

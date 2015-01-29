@@ -9,6 +9,16 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Version: 2.0
 */
 
+.bar_link a { text-decoration: none; display: inline-block; }
+.bar_link a:after {
+    content: '';
+    display: block;
+    border-bottom: 1px solid white;
+    width: 0;
+    -webkit-transition: 0.5s ease;
+            transition: 0.5s ease;
+}
+.bar_link a:hover:after { width: 100%; }
 
 a { text-decoration:none; color: #fff; }
 a:hover{ 
@@ -30,7 +40,7 @@ body {
 	margin: 0;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 100%;
-	color: #73879C;
+	color: #000;
     font-size: 14px;
 	line-height: 150%;
     -webkit-font-smoothing: antialiased;
@@ -140,7 +150,7 @@ body {
 	}
 
 .flexy-menu>li>a:hover{
-	color:#55C1E5;
+	color:#FFF;
 	}
 
 .flexy-menu li.right{
@@ -698,7 +708,7 @@ margin: 10px 0;
 	/*background-color: #6687a9;*/
 	font-size: 1em;
 	padding: 0.6em 2.2em;
-	color:#000000!important;
+	color:#000000;
 	}
 
 .button_2 a:hover{
@@ -732,6 +742,17 @@ margin: 10px 0;
 /*	SKILLS
 /*===================================================================================*/
 
+
+.linkedin_btn {
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+}
+
+.linkedin_btn:hover{
+	opacity:1;
+}
 .skills{
 	background: rgb(10, 11, 13); /* Fall-back for browsers that don't support rgba */
 	background: rgba(10, 11, 13, 0.9);

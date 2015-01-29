@@ -1276,6 +1276,12 @@ and (max-device-width : 480px) {
 	.title-upper{
 		font-size: 20px;
 	}
+	.da-slider{
+		height:200px;
+	}
+	.slider{
+		padding-top: 2em;
+	}
 /* Styles */
 }
 

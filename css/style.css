@@ -1280,8 +1280,11 @@ and (max-device-width : 480px) {
 		height:200px;
 	}
 	.slider{
-		padding-top: 2em;
+		padding: 2em;
 	}
+	.logo img{
+		margin-top: 20px;
+	} 
 /* Styles */
 }
 

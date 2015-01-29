@@ -1264,7 +1264,12 @@ footer ul.contacts li {
 /*	RESPONSIVE
 /*===================================================================================*/
 @media (min-width: 992px) {  
-
+	.tlt{
+		font-size: 34px;
+	}
+	.title-upper{
+		font-size: 20px;
+	}
 }
 
 

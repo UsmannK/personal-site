@@ -376,6 +376,7 @@ body {
 
 .boxed
 {
+	text-decoration: none;
 	border: 2px solid #fff !important;
 	border-top-color: rgb(255, 255, 255);
 	border-top-style: solid;

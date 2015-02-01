@@ -615,6 +615,10 @@
 			});
 		});
 
+		$('#email_content').click(function() {
+			$(this).val("");
+		});
+
 		$('#send_mail').click(function() {
 			  $.ajax({
 			  type: "POST",

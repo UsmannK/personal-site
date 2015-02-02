@@ -351,7 +351,7 @@
 						<div class="clearfix"></div>
 					</li> 
 					<li>
-						<textarea class="form-control" placeholder="Don't forget that kindness is all!" id="email_content"> Don't forget that kindness is all!</textarea>
+						<textarea class="form-control" placeholder="Don't forget that kindness is all!" id="email_content"> </textarea>
 						<div class="clearfix"></div>
 					</li> 
 					<div class="item button_2" id="send_mail"><a href="#">SEND</a></div>
@@ -615,9 +615,6 @@
 			});
 		});
 
-		$('#email_content').click(function() {
-			$(this).val("");
-		});
 
 		$('#send_mail').click(function() {
 			  $.ajax({

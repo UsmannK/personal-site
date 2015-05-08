@@ -29,6 +29,10 @@ a:hover{
 nav.vertical ul li{	display:block;}
 nav.horizontal ul li{display: inline-block;}
 
+.small-font {
+	font-size: 8px;
+}
+
 img{max-width:100%;}
 
 body {

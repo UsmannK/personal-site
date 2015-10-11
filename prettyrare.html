@@ -1,0 +1,27 @@
+<html>
+<video id="vp" onended="run()" ontrols='controls'></video>
+<script>
+videoPlayer=document.getElementById("vp")
+console.log(videoPlayer.defaultPlaybackRate)
+videoPlayer.defaultPlaybackRate=5.0
+var i = 1;
+run()
+function run(){
+	if(i%2 == 1) {
+		videoPlayer.defaultPlaybackRate = 3.0
+		console.log(videoPlayer.defaultPlaybackRate)
+		videoPlayer.height=50;
+		console.log(videoPlayer.defaultPlaybackRate)
+		videoPlayer.src='Dung_pt1.mp4'
+		videoPlayer.play();
+	} else{
+		videoPlayer.defaultPlaybackRate = 5.0
+		console.log(videoPlayer.defaultPlaybackRate)
+		videoPlayer.src="Dung_pt2.mov"
+		videoPlayer.height=600;
+		videoPlayer.play();
+	}
+	i++;
+};
+</script>
+</html>
